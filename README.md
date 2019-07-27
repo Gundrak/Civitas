@@ -153,7 +153,7 @@ Take a snapshot if you want at this point (can be used on a second droplet)
 
 Add the first masternode user and set the password for that user
 ```
-user add -m -s /bin/bash civitasmn01
+useradd -m -s /bin/bash civitasmn01
 ```
 ```
 passwd civitasmn01
