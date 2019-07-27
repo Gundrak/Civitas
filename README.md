@@ -228,10 +228,6 @@ chown -R civitasmn02:civitasmn02 /home/civitasmn02
 ```
 Exit, then log in as civitasmn02
 ```
-civitasd
-```
-Copy rpcuser and rpcpassword to use in the conf file
-```
 nano /home/civitasmn02/.civitas/civitas.conf
 ```
 Replace:                                                                                                    
