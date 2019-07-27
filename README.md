@@ -4,7 +4,7 @@ If you only want one Masternode on your server follow this guide: https://github
 
 ## Preperation
 
-1. Get a VPS from a provider like DigitalOcean, Vultr, Linode, etc. 
+1. Get a VPS from a provider like DigitalOcean, Vultr, Linode, etc. (only tested on Vultr) 
    - Recommended VPS size at least 1gb RAM 
    - **It must be Ubuntu 16.04 (Xenial)**
    - It must have two IP addresses. (make sure to enable IPv6 when setting up the droplet)
