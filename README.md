@@ -199,9 +199,10 @@ CTRL X to save it. Y for yes, then ENTER.
 civitasd
 ```
 Wait for the blockchain to sync (check with "civitas-cli getinfo").
+
 Open the Debug Console in your cold wallet.
 ```
-startmasternode aslias false mnXX(mn01)
+startmasternode alias false mnXX(mn01)
 ````
 Go back to your terminal and run:
 ```
@@ -266,9 +267,10 @@ CTRL X to save it. Y for yes, then ENTER.
 civitasd
 ```
 Wait for the blockchain to sync (check with "civitas-cli getinfo").
+
 Open the Debug Console in your cold wallet.
 ```
-startmasternode aslias false mnXX(mn02)
+startmasternode alias false mnXX(mn02)
 ````
 Go back to your terminal and run:
 ```
