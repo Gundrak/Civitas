@@ -7,6 +7,7 @@ If you only want one Masternode on your server follow this guide: https://github
 1. Get a VPS from a provider like DigitalOcean, Vultr, Linode, etc. 
    - Recommended VPS size at least 1gb RAM 
    - **It must be Ubuntu 16.04 (Xenial)**
+   - It must have two IP addresses.
 2. Make sure you have a transaction of exactly 10000 CIV in your desktop cold wallet.
 
 ## Cold Wallet Setup Part 1
