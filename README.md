@@ -162,7 +162,7 @@ passwd civitasmn01
 ```
 mkdir -p .civitas
 ```
-Log in as civitasmn01
+Reboot the VPS machine and log in as civitasmn01
 ```
 civitasd
 ```
