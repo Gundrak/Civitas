@@ -171,7 +171,6 @@ Copy rpcpassword to use in the conf file
 nano .civitas/civitas.conf
 ```
 Replace:
-rpcuser=WITH_THE_ONE_YOU_COPIED
 
 rpcpassword=WITH_THE_ONE_YOU_COPIED
 
@@ -181,7 +180,7 @@ masternodeprivkey=WALLET_GENKEY
 
 With your info!
 ```
-rpcuser=randuser43897ty8943
+rpcuser=civitasrpc
 rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
 rpcallowip=127.0.0.1
 listen=1
@@ -236,9 +235,7 @@ Copy rpcuser and rpcpassword to use in the conf file
 nano /home/civitasmn02/.civitas/civitas.conf
 ```
 Replace:                                                                                                    
-
-rpcuser=WITH_THE_ONE_YOU_COPIED                                                
-
+                                               
 rpcpassword=WITH_THE_ONE_YOU_COPIED
 
 externalip=VPS_IP_ADDRESS
@@ -247,7 +244,7 @@ masternodeprivkey=WALLET_GENKEY
 
 With your info!
 ```
-rpcuser=randuser43897ty8943
+rpcuser=civitasrpc
 rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
 rpcallowip=127.0.0.1
 listen=1
