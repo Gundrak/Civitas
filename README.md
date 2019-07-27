@@ -183,6 +183,7 @@ With your info!
 rpcuser=civitasrpc
 rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
 rpcallowip=127.0.0.1
+rpcport=18900
 listen=1
 server=1
 logtimestamps=1
@@ -243,6 +244,7 @@ With your info!
 rpcuser=civitasrpc
 rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
 rpcallowip=127.0.0.1
+rpcport=18901
 listen=1
 server=1
 logtimestamps=1
