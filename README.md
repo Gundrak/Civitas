@@ -172,9 +172,13 @@ nano .civitas/civitas.conf
 ```
 Replace:
 rpcuser=WITH_THE_ONE_YOU_COPIED
+
 rpcpassword=WITH_THE_ONE_YOU_COPIED
+
 externalip=VPS_IP_ADDRESS
+
 masternodeprivkey=WALLET_GENKEY
+
 With your info!
 ```
 rpcuser=randuser43897ty8943
