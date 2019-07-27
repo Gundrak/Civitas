@@ -172,7 +172,7 @@ nano .civitas/civitas.conf
 ```
 Replace:
 
-rpcpassword=WITH_THE_ONE_YOU_COPIED
+rpcpassword=MAKE_SOME_CHANGES_TO_THE_CURRENT_ONE
 
 externalip=VPS_IP_ADDRESS
 
