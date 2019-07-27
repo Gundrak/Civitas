@@ -166,7 +166,7 @@ Log in as civitasmn01
 ```
 civitasd
 ```
-Copy rpcuser and rpcpassword to use in the conf file
+Copy rpcpassword to use in the conf file
 ```
 nano .civitas/civitas.conf
 ```
@@ -199,7 +199,7 @@ CTRL X to save it. Y for yes, then ENTER.
 ```
 civitasd
 ```
-Wait for the blockchain to sync (check with "civitas-cli getinfo").
+Wait for the blockchain to sync (check with "watch civitas-cli getinfo").
 
 Open the Debug Console in your cold wallet.
 ```
