@@ -168,7 +168,7 @@ civitasd
 ```
 Copy rpcpassword to use in the conf file
 ```
-nano .civitas/civitas.conf
+nano /home/civitasmn01/.civitas/civitas.conf
 ```
 Replace:
 
