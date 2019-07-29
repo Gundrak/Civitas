@@ -266,6 +266,8 @@ civitasd
 ```
 Wait for the blockchain to sync (check with "civitas-cli getinfo").
 
+While waiting for the blockchain to sync, go down to "Cold Wallet Setup Part 2" and complete that before proceeding.
+
 Open the Debug Console in your cold wallet.
 ```
 startmasternode alias false mnXX(mn02)
