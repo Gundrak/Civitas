@@ -307,4 +307,4 @@ mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxx
 * civitasd -resync (forces the blockchain to resync, use Civitas-cli stop first)
 
 ## Credit
-tokayseo/Casey for making the original [guide](https://github.com/tokayseo/Civitas/blob/master/README.md)
+[tokayseo](https://github.com/tokayseo)/Casey for making the original [guide](https://github.com/tokayseo/Civitas/blob/master/README.md)
