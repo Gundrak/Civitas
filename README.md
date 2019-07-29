@@ -171,12 +171,9 @@ Copy rpcpassword to use in the conf file
 nano /home/civitasmn01/.civitas/civitas.conf
 ```
 Replace:
-
-rpcpassword=WITH_THE_ONE_YOU_COPIED
-
-externalip=VPS_IP_ADDRESS
-
-masternodeprivkey=WALLET_GENKEY
+1. rpcpassword=WITH_THE_ONE_YOU_COPIED
+2. externalip=VPS_IP_ADDRESS
+3. masternodeprivkey=WALLET_GENKEY
 
 With your info!
 ```
@@ -233,13 +230,10 @@ Exit, then log in as civitasmn02
 ```
 nano /home/civitasmn02/.civitas/civitas.conf
 ```
-Replace:                                                                                                    
-                                               
-rpcpassword=MAKE_SOME_CHANGES_TO_THE_CURRENT_ONE
-
-externalip=VPS_IP_ADDRESS
-
-masternodeprivkey=WALLET_GENKEY
+Replace:                                                                                                                               
+1. rpcpassword=MAKE_SOME_CHANGES_TO_THE_CURRENT_ONE
+2. externalip=VPS_IP_ADDRESS
+3. masternodeprivkey=WALLET_GENKEY
 
 With your info!
 ```
@@ -307,3 +301,11 @@ mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxx
 9. Click "Start All"
 
 Cheers !!
+
+## Usefull commands to know
+* civitas-cli stop (Stops the masternode)
+* civitas-cli getinfo (Returns info about version, connections, blocks, etc)
+* civitas-cli masternode status (Prints Masternode status)
+* civitasd -resync (forces the blockchain to resync, use Civitas-cli stop first)
+
+
