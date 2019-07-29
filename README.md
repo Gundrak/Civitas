@@ -300,8 +300,6 @@ mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxx
 8. Go to the "Masternodes" tab
 9. Click "Start All"
 
-Cheers !!
-
 ## Usefull commands to know
 * civitas-cli stop (Stops the masternode)
 * civitas-cli getinfo (Returns info about version, connections, blocks, etc)
