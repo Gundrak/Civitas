@@ -201,6 +201,8 @@ civitasd
 ```
 Wait for the blockchain to sync (check with "watch civitas-cli getinfo").
 
+While waiting for the blockchain to sync, go down to "Cold Wallet Setup Part 2" and complete that before proceeding.
+
 Open the Debug Console in your cold wallet.
 ```
 startmasternode alias false mnXX(mn01)
@@ -273,3 +275,33 @@ Go back to your terminal and run:
 civitas-cli masternode status
 ```
 This should return : "Masternode successfully started" if everything worked (might take a couple of minutes)
+
+
+## Cold Wallet Setup Part 2 
+
+1. On your local machine open your `masternode.conf` file.
+   Depending on your operating system you will find it in:
+   * Windows: `%APPDATA%\Civitas\`
+   * Mac OS: `~/Library/Application Support/Civitas/`
+   * Unix/Linux: `~/.civitas/`
+   
+   Leave the file open
+2. Go to "Tools" -> "Debug console"
+3. Run the following command: `masternode outputs`
+4. You should see output like the following if you have a transaction with exactly 10000 Civitas:
+```
+{
+    "12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "0"
+}
+```
+5. The value on the left is your `txid` and the right is the `vout`
+6. Add a line to the bottom of the already opened `masternode.conf` file using the IP of your
+VPS (with port 24126), `private key`, `txid` and `vout`:
+```
+mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0 
+```
+7. Save the file, exit your wallet and reopen your wallet.
+8. Go to the "Masternodes" tab
+9. Click "Start All"
+
+Cheers !!
