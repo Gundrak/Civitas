@@ -1,6 +1,6 @@
 # Civitas
 Building two Civitas Master Nodes on one server.                                                    
-If you only want one Masternode on your server follow this guide: https://github.com/tokayseo/Civitas/blob/master/README.md
+If you only want one Masternode on your server follow this guide: [Here](https://github.com/tokayseo/Civitas/blob/master/README.md)
 
 ## Preperation
 
@@ -308,4 +308,5 @@ Cheers !!
 * civitas-cli masternode status (Prints Masternode status)
 * civitasd -resync (forces the blockchain to resync, use Civitas-cli stop first)
 
-
+## Credit
+tokayseo/Casey for making the original [guide](https://github.com/tokayseo/Civitas/blob/master/README.md)
