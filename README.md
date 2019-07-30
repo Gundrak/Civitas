@@ -292,9 +292,9 @@ This should return : "Masternode successfully started" if everything worked (mig
 ```
 5. The value on the left is your `txid` and the right is the `vout`
 6. Add a line to the bottom of the already opened `masternode.conf` file using the IP of your
-VPS (with port 24126), `private key`, `txid` and `vout`:
+VPS (with port 18843), `private key`, `txid` and `vout`:
 ```
-mn1 1.2.3.4:24126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0 
+mn1 1.2.3.4:18843 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0 
 ```
 7. Save the file, exit your wallet and reopen your wallet.
 8. Go to the "Masternodes" tab
